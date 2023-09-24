@@ -86,7 +86,7 @@ const FormularioInscripcion = () => {
       setIsSubmitting(true);
       axios
         .post(
-          "https://grupociencias.edu.pe/exaframe-ms/api/Landing/RegisterUser",
+          "",
           data
         )
         .then((response) => {
